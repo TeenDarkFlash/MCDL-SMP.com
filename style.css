@@ -1,0 +1,108 @@
+body {
+    background-color: teal;
+    background-size: 100% 200%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#main {
+    background: linear-gradient(red, orange, yellow, blue);
+    text-align: center;
+    max-width: 500px;
+    height: 235px;
+    margin: auto;
+    padding: 50px;
+    border: 5px solid green;
+    border-radius: 20px; 
+}
+
+#ss {
+    padding: 12px;
+}
+
+#res {
+    border: 2px solid darkblue;
+    border-radius: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100px;
+    height: 30px;
+    padding: 3px;
+    text-align: center;
+}
+
+#ms {
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px black,
+    1px 2px 1px black,
+    1px 3px 1px black,
+    1px 4px 1px black,
+    1px 5px 1px black,
+    1px 6px 1px black,
+    1px 7px 1px black,
+    1px 8px 1px black,
+    1px 9px 1px black,
+    1px 10px 1px black;
+}
+
+#base-1 {
+    color: red;
+    outline: none;
+    border: 2px blue;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+#base-3 {
+    color: red;
+    outline: none;
+    border: 2px blue;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+#base-4 {
+    color: midnightblue;
+    outline: none;
+    border: 2px blue;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+#base-5 {
+    color: midnightblue;
+    outline: none;
+    border: 2px blue;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+#pool {
+    padding: 2px;
+}
+
+#tool {
+    background: linear-gradient(white, black);
+    color: black;
+    padding: 5px;
+    width: 100px;
+    border: 4px green;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+#pun {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+#kil {
+    border-radius: 50%;
+    position: absolute;
+    top: -40px;
+    left: calc(50% - 40px);
+    height: 80px;
+    width: 80px;
+}
